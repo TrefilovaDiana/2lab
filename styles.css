@@ -1,0 +1,32 @@
+html{
+	height: 100%;
+}
+
+body {
+	display: flex;
+	height: 100%;
+}
+
+nav {
+	margin: 10px;
+}
+
+content {
+	width: 600px;
+	height: 600px;
+	margin: 10px;
+	display: flex;
+}
+
+.field-column{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+
+.field-button{
+	flex-direction: row;
+	flex: 1;
+	outline: none;/*чтобы вокруг кнопки исчезла рамка */
+}
